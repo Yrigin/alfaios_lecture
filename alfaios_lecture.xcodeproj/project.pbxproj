@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4BCE6B012AD4278800AD8B01 /* alfaios_lectureApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BCE6B002AD4278800AD8B01 /* alfaios_lectureApp.swift */; };
+		4BCE6B032AD4278800AD8B01 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BCE6B022AD4278800AD8B01 /* ContentView.swift */; };
+		4BCE6B052AD4278A00AD8B01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BCE6B042AD4278A00AD8B01 /* Assets.xcassets */; };
+		4BCE6B092AD4278A00AD8B01 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BCE6B082AD4278A00AD8B01 /* Preview Assets.xcassets */; };
+		4BCE6B132AD4278B00AD8B01 /* alfaios_lectureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BCE6B122AD4278B00AD8B01 /* alfaios_lectureTests.swift */; };
+		4BCE6B1D2AD4278B00AD8B01 /* alfaios_lectureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BCE6B1C2AD4278B00AD8B01 /* alfaios_lectureUITests.swift */; };
+		4BCE6B1F2AD4278B00AD8B01 /* alfaios_lectureUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BCE6B1E2AD4278B00AD8B01 /* alfaios_lectureUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4BCE6B0F2AD4278B00AD8B01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4BCE6AF52AD4278800AD8B01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4BCE6AFC2AD4278800AD8B01;
+			remoteInfo = alfaios_lecture;
+		};
+		4BCE6B192AD4278B00AD8B01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4BCE6AF52AD4278800AD8B01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4BCE6AFC2AD4278800AD8B01;
+			remoteInfo = alfaios_lecture;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4BCE6AFD2AD4278800AD8B01 /* alfaios_lecture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = alfaios_lecture.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BCE6B002AD4278800AD8B01 /* alfaios_lectureApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alfaios_lectureApp.swift; sourceTree = "<group>"; };
+		4BCE6B022AD4278800AD8B01 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4BCE6B042AD4278A00AD8B01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4BCE6B062AD4278A00AD8B01 /* alfaios_lecture.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = alfaios_lecture.entitlements; sourceTree = "<group>"; };
+		4BCE6B082AD4278A00AD8B01 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4BCE6B0E2AD4278A00AD8B01 /* alfaios_lectureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = alfaios_lectureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BCE6B122AD4278B00AD8B01 /* alfaios_lectureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alfaios_lectureTests.swift; sourceTree = "<group>"; };
+		4BCE6B182AD4278B00AD8B01 /* alfaios_lectureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = alfaios_lectureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BCE6B1C2AD4278B00AD8B01 /* alfaios_lectureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alfaios_lectureUITests.swift; sourceTree = "<group>"; };
+		4BCE6B1E2AD4278B00AD8B01 /* alfaios_lectureUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alfaios_lectureUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4BCE6AFA2AD4278800AD8B01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BCE6B0B2AD4278A00AD8B01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BCE6B152AD4278B00AD8B01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4BCE6AF42AD4278800AD8B01 = {
+			isa = PBXGroup;
+			children = (
+				4BCE6AFF2AD4278800AD8B01 /* alfaios_lecture */,
+				4BCE6B112AD4278B00AD8B01 /* alfaios_lectureTests */,
+				4BCE6B1B2AD4278B00AD8B01 /* alfaios_lectureUITests */,
+				4BCE6AFE2AD4278800AD8B01 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4BCE6AFE2AD4278800AD8B01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4BCE6AFD2AD4278800AD8B01 /* alfaios_lecture.app */,
+				4BCE6B0E2AD4278A00AD8B01 /* alfaios_lectureTests.xctest */,
+				4BCE6B182AD4278B00AD8B01 /* alfaios_lectureUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4BCE6AFF2AD4278800AD8B01 /* alfaios_lecture */ = {
+			isa = PBXGroup;
+			children = (
+				4BCE6B002AD4278800AD8B01 /* alfaios_lectureApp.swift */,
+				4BCE6B022AD4278800AD8B01 /* ContentView.swift */,
+				4BCE6B042AD4278A00AD8B01 /* Assets.xcassets */,
+				4BCE6B062AD4278A00AD8B01 /* alfaios_lecture.entitlements */,
+				4BCE6B072AD4278A00AD8B01 /* Preview Content */,
+			);
+			path = alfaios_lecture;
+			sourceTree = "<group>";
+		};
+		4BCE6B072AD4278A00AD8B01 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4BCE6B082AD4278A00AD8B01 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4BCE6B112AD4278B00AD8B01 /* alfaios_lectureTests */ = {
+			isa = PBXGroup;
+			children = (
+				4BCE6B122AD4278B00AD8B01 /* alfaios_lectureTests.swift */,
+			);
+			path = alfaios_lectureTests;
+			sourceTree = "<group>";
+		};
+		4BCE6B1B2AD4278B00AD8B01 /* alfaios_lectureUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4BCE6B1C2AD4278B00AD8B01 /* alfaios_lectureUITests.swift */,
+				4BCE6B1E2AD4278B00AD8B01 /* alfaios_lectureUITestsLaunchTests.swift */,
+			);
+			path = alfaios_lectureUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4BCE6AFC2AD4278800AD8B01 /* alfaios_lecture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BCE6B222AD4278B00AD8B01 /* Build configuration list for PBXNativeTarget "alfaios_lecture" */;
+			buildPhases = (
+				4BCE6AF92AD4278800AD8B01 /* Sources */,
+				4BCE6AFA2AD4278800AD8B01 /* Frameworks */,
+				4BCE6AFB2AD4278800AD8B01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = alfaios_lecture;
+			productName = alfaios_lecture;
+			productReference = 4BCE6AFD2AD4278800AD8B01 /* alfaios_lecture.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4BCE6B0D2AD4278A00AD8B01 /* alfaios_lectureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BCE6B252AD4278B00AD8B01 /* Build configuration list for PBXNativeTarget "alfaios_lectureTests" */;
+			buildPhases = (
+				4BCE6B0A2AD4278A00AD8B01 /* Sources */,
+				4BCE6B0B2AD4278A00AD8B01 /* Frameworks */,
+				4BCE6B0C2AD4278A00AD8B01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4BCE6B102AD4278B00AD8B01 /* PBXTargetDependency */,
+			);
+			name = alfaios_lectureTests;
+			productName = alfaios_lectureTests;
+			productReference = 4BCE6B0E2AD4278A00AD8B01 /* alfaios_lectureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4BCE6B172AD4278B00AD8B01 /* alfaios_lectureUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BCE6B282AD4278B00AD8B01 /* Build configuration list for PBXNativeTarget "alfaios_lectureUITests" */;
+			buildPhases = (
+				4BCE6B142AD4278B00AD8B01 /* Sources */,
+				4BCE6B152AD4278B00AD8B01 /* Frameworks */,
+				4BCE6B162AD4278B00AD8B01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4BCE6B1A2AD4278B00AD8B01 /* PBXTargetDependency */,
+			);
+			name = alfaios_lectureUITests;
+			productName = alfaios_lectureUITests;
+			productReference = 4BCE6B182AD4278B00AD8B01 /* alfaios_lectureUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4BCE6AF52AD4278800AD8B01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					4BCE6AFC2AD4278800AD8B01 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					4BCE6B0D2AD4278A00AD8B01 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 4BCE6AFC2AD4278800AD8B01;
+					};
+					4BCE6B172AD4278B00AD8B01 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 4BCE6AFC2AD4278800AD8B01;
+					};
+				};
+			};
+			buildConfigurationList = 4BCE6AF82AD4278800AD8B01 /* Build configuration list for PBXProject "alfaios_lecture" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4BCE6AF42AD4278800AD8B01;
+			productRefGroup = 4BCE6AFE2AD4278800AD8B01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4BCE6AFC2AD4278800AD8B01 /* alfaios_lecture */,
+				4BCE6B0D2AD4278A00AD8B01 /* alfaios_lectureTests */,
+				4BCE6B172AD4278B00AD8B01 /* alfaios_lectureUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4BCE6AFB2AD4278800AD8B01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BCE6B092AD4278A00AD8B01 /* Preview Assets.xcassets in Resources */,
+				4BCE6B052AD4278A00AD8B01 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BCE6B0C2AD4278A00AD8B01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BCE6B162AD4278B00AD8B01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4BCE6AF92AD4278800AD8B01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BCE6B032AD4278800AD8B01 /* ContentView.swift in Sources */,
+				4BCE6B012AD4278800AD8B01 /* alfaios_lectureApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BCE6B0A2AD4278A00AD8B01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BCE6B132AD4278B00AD8B01 /* alfaios_lectureTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BCE6B142AD4278B00AD8B01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BCE6B1D2AD4278B00AD8B01 /* alfaios_lectureUITests.swift in Sources */,
+				4BCE6B1F2AD4278B00AD8B01 /* alfaios_lectureUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4BCE6B102AD4278B00AD8B01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4BCE6AFC2AD4278800AD8B01 /* alfaios_lecture */;
+			targetProxy = 4BCE6B0F2AD4278B00AD8B01 /* PBXContainerItemProxy */;
+		};
+		4BCE6B1A2AD4278B00AD8B01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4BCE6AFC2AD4278800AD8B01 /* alfaios_lecture */;
+			targetProxy = 4BCE6B192AD4278B00AD8B01 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4BCE6B202AD4278B00AD8B01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4BCE6B212AD4278B00AD8B01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		4BCE6B232AD4278B00AD8B01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = alfaios_lecture/alfaios_lecture.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"alfaios_lecture/Preview Content\"";
+				DEVELOPMENT_TEAM = H2TP6HUF49;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mytestapp.alfaios-lecture";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4BCE6B242AD4278B00AD8B01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = alfaios_lecture/alfaios_lecture.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"alfaios_lecture/Preview Content\"";
+				DEVELOPMENT_TEAM = H2TP6HUF49;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mytestapp.alfaios-lecture";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4BCE6B262AD4278B00AD8B01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H2TP6HUF49;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mytestapp.alfaios-lectureTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/alfaios_lecture.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/alfaios_lecture";
+			};
+			name = Debug;
+		};
+		4BCE6B272AD4278B00AD8B01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H2TP6HUF49;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mytestapp.alfaios-lectureTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/alfaios_lecture.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/alfaios_lecture";
+			};
+			name = Release;
+		};
+		4BCE6B292AD4278B00AD8B01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H2TP6HUF49;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mytestapp.alfaios-lectureUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = alfaios_lecture;
+			};
+			name = Debug;
+		};
+		4BCE6B2A2AD4278B00AD8B01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H2TP6HUF49;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mytestapp.alfaios-lectureUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = alfaios_lecture;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4BCE6AF82AD4278800AD8B01 /* Build configuration list for PBXProject "alfaios_lecture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BCE6B202AD4278B00AD8B01 /* Debug */,
+				4BCE6B212AD4278B00AD8B01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BCE6B222AD4278B00AD8B01 /* Build configuration list for PBXNativeTarget "alfaios_lecture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BCE6B232AD4278B00AD8B01 /* Debug */,
+				4BCE6B242AD4278B00AD8B01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BCE6B252AD4278B00AD8B01 /* Build configuration list for PBXNativeTarget "alfaios_lectureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BCE6B262AD4278B00AD8B01 /* Debug */,
+				4BCE6B272AD4278B00AD8B01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BCE6B282AD4278B00AD8B01 /* Build configuration list for PBXNativeTarget "alfaios_lectureUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BCE6B292AD4278B00AD8B01 /* Debug */,
+				4BCE6B2A2AD4278B00AD8B01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4BCE6AF52AD4278800AD8B01 /* Project object */;
+}
